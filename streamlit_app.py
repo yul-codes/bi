@@ -5,7 +5,7 @@ st.title("📊 Аналитика из Superset")
 
 # Встраиваем дашборд
 st.components.v1.iframe(
-    src="https://thirstier-decidedly-sharda.ngrok-free.dev/superset/dashboard/12/?standalone=1",
+    src="http://host.docker.internal:8088/superset/dashboard/12/?standalone=1",
     width=1200,
     height=800,
     scrolling=True
